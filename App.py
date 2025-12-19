@@ -13,7 +13,7 @@ st.warning("⚠️ Sirf demo/education ke liye! Real mein paise loss ho sakte ha
 col1, col2 = st.columns(2)
 with col1:
     ticker = st.selectbox("Asset Choose Karo", 
-                          ["EURUSD=X", "GBPUSD=X", "USDJPY=X", "AUDUSD=X", "USDCAD=X", 
+                          ["EURUSD=X", "GBPUSD=X", "USDJPY=X", "AUDUSD=X", "USDCAD=X", "CRPTO/IDX=X",
                            "NZDUSD=X", "EURGBP=X", "BTC-USD", "ETH-USD", 
                            "AAPL", "GOOGL", "TSLA", "AMZN"])
 with col2:
